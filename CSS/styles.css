@@ -1,0 +1,102 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body, html{
+    height: 100;
+    margin: 0px;
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:turquoise;
+}
+
+
+.flex-container{
+    display: right;
+}
+
+.hero-image{
+    background-image:url("https://images.unsplash.com/photo-1508022240297-e87369353901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    height:50%;
+    background-size:contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    padding-bottom:20px;
+}
+
+.hero-text{
+    text-align:center;
+}
+
+main{
+    width:25%;
+    float:right;
+    height:100%;
+    padding : 50px;
+}
+
+main li{
+    display:inline;
+    text-decoration-style:none;
+}
+
+.side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:50px;
+}
+
+.profile-image{
+    width:0px;
+    max-height: 0px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.main-article ul{
+    list-style-type:none;
+    padding-left:0px;
+    float: left;
+    list-style-type: none;
+}
+
+.profile h2{
+    display:inline;
+}
+
+.profile-details{
+    margin: right 5px;
+}
+
+.footer{
+    float:inline-end
+}
